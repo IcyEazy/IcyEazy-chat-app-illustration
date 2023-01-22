@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+    <title>Frontend Mentor | [Chat-app-css-illustration]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="phone">
+        <div class="phone-content">
+          <div class="notch"></div>
+          <div class="profile">
+            <div class="profile-details">
+              <div><i class="chevron left icon large"></i></div>
+              <img class="avatar" src="./images/avatar.jpg" alt="avatar">
+              <p class="details"><span class="name">Samuel Green</span> <span class="walk">Available to Walk</span></p>
+            </div>
+            <div><i class="ellipsis vertical icon"></i></div>
+          </div>
+          <div class="chats">
+            <p class="incoming">That sounds great. I&apos;d be happy with that.</p>
+            <p class="incoming">Could you send over some pictures of your dog, please?</p>
+            <div class="dogs">
+              <img src="./images/dog-image-1.jpg" alt="image-1">
+              <img src="./images/dog-image-2.jpg" alt="image-2">
+              <img src="./images/dog-image-3.jpg" alt="image-3">
+            </div>
+            <p class="outgoing">Here are a few pictures. She&apos;s a happy girl!</p>
+            <p class="outgoing">Can you make it?</p>
+            <p class="incoming">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            <div class="service">
+              <label for="thirty">
+                <input type="radio" id="thirty" name="duration">
+                30 minute walk
+              </label>
+              <p>$29</p>
+            </div>
+            <div class="service">
+              <label for="hour">
+                <input type="radio" id="hour" name="duration">
+                1 hour walk
+              </label>
+              <p>$49</p>
+            </div>
+            <div class="typed"></div>
+            <div class="input">
+              <input type="text" name="texts" id="texts" placeholder="Type a message…">
+              <div class="submit"><i class="angle right icon big"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking">
+        <h1>Simple booking</h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+          discuss arrangements and make bookings. Once the walk has been completed you can rate 
+          your walker and book again all through the chat.
+        </p>
+      </div>
+    </main>
+    
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/IcyEazy">Adigun Israel Collins</a>.
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
